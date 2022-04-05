@@ -1,0 +1,301 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body{
+  height: 100%;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif
+  font-size: 24px;
+  background-color: #fff;
+}
+
+
+h1, h2, h3, p{
+
+}
+
+p{
+  text-align: justify;
+  font-size: 0.75em;
+}
+
+.intro-text{
+  padding: 0 2em;
+  font-size: 1.5em;
+  text-align: left;
+}
+
+#page{
+  /* width: 100%;
+  max-width: 960px; */
+  height: 500px;
+  margin: 0 auto;
+  
+}
+
+#formBox{
+  border-radius: 1em;
+  background-color: #fff;
+  padding: 2em;
+  box-shadow: 0em 0em 0.5em 0.5em #ddd;
+}
+
+#cntEnv{
+  background-color: #eee;
+}
+
+#cnt{
+  padding: 10%;
+}
+
+.p50{
+  float: left;
+  width: 50%;
+}
+
+.bf{
+  clear: both;
+  display: block;
+}
+
+.form-box input{
+  display: block;
+  width: 100%;
+  padding: 1em;
+  border: 1px solid #999;
+  border-radius: 0.75em;
+  margin: 0.75em 0;
+}
+
+.form-box input[type=submit]{
+  background-color: #1877f2;
+  color: #fff;
+}
+
+.forgot-password{
+  text-align: center;
+  font-size: 1.25em;
+  padding: 0 0 1em;
+  border-bottom: 1px solid #ddd;
+}
+
+.forgot-password a{
+  text-decoration: none;
+  color: #1877f2;
+}
+
+.forgot-password a:hover{
+  text-decoration: underline;
+  color: #16c;
+}
+
+.create-account{
+  padding: 3em 0 0;
+  text-align: center;
+}
+
+.create-account a{
+  background-color: #42b72a;
+  text-align: center;
+  font-size: 1.7em;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  color: #fff;
+  border-radius: 0.5em;
+}
+
+.create-page {
+  text-align: center;
+padding-top: 2em;
+font-size: 14px;
+}
+
+#ftr{
+ background-color: #fff;
+ width: 100%;
+}
+
+#ftr p{
+  padding: 0.7em;
+}
+
+
+.lang-box a{
+  color: #8a8d91;
+  text-decoration: none;
+  margin: 0.5em;
+}
+
+.lang-box a:hover{
+  text-decoration: underline;
+}
+
+.plus{
+  border: 1px solid #999;
+padding: 0.125em 0.5em;
+background-color: #ccc;
+text-decoration: none;
+font-size: 2em;
+font-weight: bold;
+border-radius: 0.25em;
+}
+
+
+.lang-box a.plus:hover{
+  text-decoration: none;
+  background-color: #ddd;
+}
+
+.lang-boxes1{
+  border-top: 0.1em solid #ccc ;
+  padding: 0;
+}
+
+.lang-boxes1 a{
+   padding: 0.5em;
+  color: #8a8d91;;
+  text-decoration: none;
+}
+
+.lang-boxes1 a:hover{
+  text-decoration: underline;
+}
+
+.page-box{
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+#ftr .copy{
+color: #737373;
+font-size: 0.75em;
+padding: 1em 1em;
+}
+
+
+#signUpAccount{
+  border: 1px solid #ccc;
+  display: inline-block;
+  padding: 0.25em;
+  background-color: #fff;
+  border-bottom: 0.001em solid rgb(158, 158, 158);
+  width: 25%;
+
+}
+
+
+.sign-up{
+  font-size: 2em;
+  padding: 1em;
+  border-radius: 0.7em 0.5em;
+  width: 200px;
+}
+#signUpBox{
+  border-top: 0.001em solid rgb(158, 158, 158);
+}
+
+#signUpAccount p{
+  
+  padding: 0.20em;
+  margin: 0.7em 0;
+}
+
+
+#signUpAccount input{
+  padding: 1em;
+  border: 1px solid #999;
+  border-radius: 0.5em 0.5em;
+  width: 100%;
+  background-color: rgb(209, 208, 208);
+}
+
+
+#firstNameBox, #lastNameBox{
+  float: left;
+  width: 50%;
+}
+
+#firstNameBoxIn{
+  padding: 0.25em;
+}
+
+#lastNameBoxIn{
+  padding: 0.25em;
+}
+
+.bf{
+  clear: both;
+  display: block;
+}
+#mobileNameBox{
+  padding: 0.25em;
+}
+#passNewBox{
+  padding: 0.25em;
+}
+
+#selBox{
+  width: 100%;
+  padding: -5em;
+}
+
+#selBox select{
+  padding: 1em;
+  border: 1px solid #ccd0d5;
+  width: 120px;
+}
+
+#selBoxOne{
+  padding: -5em;
+
+}
+
+#selBoxOne select{
+  padding: 1em;
+  border: 1px solid #ccd0d5;
+  width: 120px;
+}
+ 
+.text-select{
+  font-size: 11px;
+  color: #777;
+}
+
+.text-select a{
+  color:  #385898;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.text-select a:hover{
+  text-decoration: underline;
+}
+
+.text-signup {
+  text-align: center;
+  background-color: #00a400;
+  font-size: 18px;
+  padding: 1em;
+  border-radius: 0.5em;
+  cursor: pointer;
+}
+
+.text-signup a{
+  text-decoration: none;
+  color: #fff;
+}
+
+.text-signup a:hover{
+  background: linear-gradient(rgb(199, 247, 199));
+}
+
+#signUpText{
+  width: 100%;
+  padding: 0.5em 0.5em;
+}
